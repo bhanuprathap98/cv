@@ -1,0 +1,63 @@
+
+html{
+    min-height: 100%;
+}
+.headertable{
+    background-image:url("images/spark.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+body{
+    background-image:url("images/bodyback.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+}
+
+li{
+    color:white;
+}
+th{
+    color:white;
+
+
+
+a{
+    color:white;
+}
+em{
+    color:white;
+}
+strong{
+    color:white;
+}
+
+
+table {
+    color:white;
+}
+h2 {
+    color:white;
+}
+footer {
+padding: 2px;
+}
+form.contactsform {
+    display: table;
+
+}
+
+div.contactsform {
+    display: table-row;
+    padding:10px;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}

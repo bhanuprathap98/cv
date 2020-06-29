@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contacts</title>
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <p>
+      Email:
+      <a href="mailto:vbhanuprathap98@gmail.com">vbhanuprathap98@gmail.com</a>
+    </p>
+
+    <p>Phone: <a href="tel:+917204613689">+917204613689</a></p>
+
+    <p>
+      My Address
+      <a
+        href="https://www.google.com/maps/search/%23100,+R.M.S+Colony,+2nd+main,+Bhattarahalli,+Bangalore+%E2%80%93+560049/@13.0082813,77.7108679,15z"
+        >#100 R.M.S Colony 2nd main Bhattarahalli Bangalore – 560049</a
+      >
+    </p>
+    <br />
+    <hr />
+
+    <form
+      action="mailto:bhanuband@gmail.com"
+      method="post"
+      class="contactsform"
+      enctype="text/plain"
+    >
+      <div class="contactsform">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="contactsform">
+        <label for="Password">Enter your password: </label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <div class="contactsform">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label>Enter your message</label>
+        <textarea
+          name="your message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter your Message"
+        ></textarea>
+      </div>
+      <div class="contactsform">
+        <input type="submit" value="Subscribe!" />
+      </div>
+    </form>
+  </body>
+</html>
